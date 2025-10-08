@@ -59,9 +59,10 @@ main .container {
     width: 100%;
     padding: 40px;
 }
+/*
 .bg-fuchsia {
     background-color: fuchsia;
-}
+}*/
 .bg-lightblue {
     background-color: lightblue;
 }
@@ -133,4 +134,39 @@ main .container {
 background-color: aqua;
 }
 
+.botton-white {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
 
+.botton-black {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.bg-fuchsia {
+    background-color: fuchsia;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px
+}
