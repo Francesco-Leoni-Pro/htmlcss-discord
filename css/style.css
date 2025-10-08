@@ -46,11 +46,16 @@ border: 1px solid black}
     justify-content: space-between;
     align-items: center;
     background-color: orange;
+    gap: 20px;
 }
+
+
 
 .nav {
     display: flex;
     gap: 20px;
+    align-items: center;
+    white-space: nowrap;
 }
 
 main .container {
@@ -67,7 +72,7 @@ main .container {
 /*
 .bg-fuchsia {
     background-color: fuchsia;
-}*/
+} */
 .bg-lightblue {
     background-color: lightblue;
 }
@@ -84,9 +89,10 @@ main .container {
     width: 100%;
     padding: 40px;
 }
+/*
 .bg-darkgreen {
     background-color: darkgreen;
-}
+} */
 .bg-black {
     background-color: black;
     color: white;
@@ -155,6 +161,14 @@ background-color: aqua;
     text-decoration: none;
 }
 
+.botton-blue {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
 nav a {
     text-decoration: none;
     color: white;
@@ -174,4 +188,23 @@ nav a {
   display: flex;
   justify-content: center;
   gap: 20px
+}
+
+.bg-darkgreen {
+    background-color: darkgreen;
+    text-align: center;
+}
+
+.ready-bg {
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.ready-bg .botton-blue {
+    width: auto;
+    padding: 10px 20px;
+    align-self: center;
 }
