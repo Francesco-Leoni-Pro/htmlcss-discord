@@ -208,3 +208,37 @@ nav a {
     padding: 10px 20px;
     align-self: center;
 }
+
+.bg-black h3,
+.bg-black h4 {
+    color: cornflowerblue;
+    margin-bottom: 10px;
+}
+
+.bg-black li i {
+    color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.five-columns .col-30 ul {
+  display: flex;
+  gap: 15px;           /* spazio tra le icone */
+  padding: 0;
+  margin-top: 10px;
+  align-items: center;
+}
+
+
+.bg-black p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bg-black p img {
+  width: 20px;                /* dimensiona la bandiera in base al testo */
+  height: auto;               /* mantiene le proporzioni */
+}
